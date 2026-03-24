@@ -23,7 +23,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - [AI Assurance Frameworks](#ai-assurance-frameworks)
 - [Standards](#standards)
 - [Regulatory Documents](#regulatory-documents)
-- [AESIA Resources (Spain)](#aesia-resources-spain)
+- [Spain](#spain)
 - [Educational Resources](#educational-resources)
 - [Communities](#communities)
 - [News & Newsletters](#news--newsletters)
@@ -39,8 +39,8 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[VerifyWise](https://github.com/verifywise-ai/verifywise)** — Open-source AI governance platform. Self-hosted compliance tracking for EU AI Act, ISO 42001, NIST AI RMF.
 - **[Evidently AI](https://github.com/evidentlyai/evidently)** — ML monitoring and evaluation framework. 7K+ stars, 35M+ downloads. No compliance mapping, but strong data quality and drift detection (Art. 10 relevant).
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
-
 - **[AIR Blackbox](https://github.com/airblackbox/gateway)** — Open-source CLI scanner for EU AI Act technical requirements (Arts. 9–15). Checks Python AI agent code for risk management, data governance, transparency, logging, human oversight, and robustness. 6/6 technical checks. `pip install air-blackbox`
+
 ## Assessment & Classification
 
 *Tools to classify AI systems by risk level and assess compliance gaps.*
@@ -103,6 +103,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI open-source framework for LLM safety evaluations. Apache 2.0.
 - **[AI Verify (Singapore IMDA)](https://aiverifyfoundation.sg)** — Governance testing framework. Includes EU AI Act principle mappings.
 - **[ALTAI (Assessment List for Trustworthy AI)](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)** — EU Commission self-assessment tool for Trustworthy AI. Based on the 7 HLEG principles.
+- **[HUDERIA (Council of Europe)](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems)** — Human rights, democracy, and rule of law impact assessment methodology for AI systems. Complements EU AI Act risk management (Art. 9) with fundamental rights perspective.
 
 ## Standards
 
@@ -128,6 +129,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html)** — AI Risk Management guidance.
 - **[ISO/IEC 24028:2020](https://www.iso.org/standard/73920.html)** — AI Trustworthiness overview.
 - **[ISO/IEC 5338:2023](https://www.iso.org/standard/81118.html)** — AI System Lifecycle Processes.
+- **[ISO/IEC TR 24029-1:2021](https://www.iso.org/standard/77609.html)** — Assessment of robustness of neural networks. Relevant to Art. 15 (accuracy, robustness, cybersecurity).
 
 ### NIST Frameworks
 
@@ -142,19 +144,26 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[EU AI Act — Official Text](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)** — Regulation (EU) 2024/1689. Official Journal, 12 July 2024.
 - **[EU AI Act — Consolidated Reader-Friendly Version](https://artificialintelligenceact.eu)** — Annotated version by Future of Life Institute.
 - **[AI Office — Implementation Guidance](https://digital-strategy.ec.europa.eu/en/policies/ai-office)** — European Commission AI Office resources.
+- **[Guidelines on AI System Definition](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application)** — Official Commission guidance clarifying what constitutes an AI system under the regulation (Art. 3).
+- **[Guidelines on Prohibited AI Practices](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act)** — Commission guidelines on banned AI applications and practices (Art. 5).
 - **[Digital Omnibus Proposal](https://digital-strategy.ec.europa.eu/en/policies/digital-omnibus)** — COM(2025) 836. Proposes deadline adjustments for Annex III systems.
 - **[EU AI Act Annex III](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689#anx_III)** — High-risk AI system categories.
 - **[EU AI Act Annex IV](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689#anx_IV)** — Technical documentation requirements.
 - **[EU AI Pact](https://digital-strategy.ec.europa.eu/en/policies/ai-pact)** — Voluntary commitment for early compliance. Signatories: Modulos, Saidot, Collibra, and 100+ others.
 - **[GPAI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/ai-act-general-purpose-ai)** — General Purpose AI model governance.
+- **[Guidelines for GPAI Providers](https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act)** — Detailed scope and obligations for general-purpose AI model providers.
+- **[GPAI Code of Practice — Signatory Taskforce](https://digital-strategy.ec.europa.eu/en/pages/signatory-taskforce-gpai-code-practice)** — Coordination forum for GPAI Code of Practice signatories (OpenAI, Anthropic, Google, Mistral, Amazon, xAI).
+- **[AI Watch](https://ai-watch.ec.europa.eu/)** — European Commission observatory tracking AI development, uptake, and policy impact across Member States.
 
-## AESIA Resources (Spain)
+## Spain
 
-*Spanish AI Agency (Agencia Española de Supervisión de Inteligencia Artificial) guidance.*
+*Spain is the first EU Member State with a fully operational AI supervisory authority (AESIA) and the most comprehensive published implementation guidance.*
+
+### AESIA (AI Supervisory Authority)
 
 > AESIA published 16 practical guides in December 2025 — the most comprehensive practical implementation resource available while JTC 21 standards are pending.
 
-- **[AESIA Official Website](https://aesia.digital.gob.es/es)** — Spanish AI supervisory authority.
+- **[AESIA Official Website](https://aesia.digital.gob.es/es)** — Agencia Española de Supervisión de Inteligencia Artificial. First operational EU AI Act supervisory authority.
 - **[All 16 guides (index)](https://aesia.digital.gob.es/es/guias)** — Complete list with PDFs.
 - **[Guide 01 — Introduction to the AI Act](https://aesia.digital.gob.es/storage/media/01-guia-introductoria-al-reglamento-de-ia-1770802981.pdf)** — Overview of the regulation scope, definitions, and obligations.
 - **[Guide 02 — Practical examples](https://aesia.digital.gob.es/storage/media/02-guia-practica-y-ejemplos-para-entender-el-reglamento-de-ia.pdf)** — Worked examples for understanding the AI Act.
@@ -172,6 +181,22 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Guide 14 — Incident Management](https://aesia.digital.gob.es/storage/media/14-guia-gestion-de-incidentes.pdf)** — Art. 73 serious incident reporting.
 - **[Guide 15 — Technical Documentation](https://aesia.digital.gob.es/storage/media/15-guia-documentacion-tecnica.pdf)** — Art. 11 + Annex IV documentation requirements.
 - **[Guide 16 — Requirements Checklist](https://aesia.digital.gob.es/storage/media/16-manual-de-checklist-de-guias-de-requisitos.pdf)** — Master checklist covering all 16 guides.
+
+### AEPD (Data Protection Authority)
+
+*The AEPD has published specific guidance on the intersection of AI systems with data protection — critical for any AI Act compliance program since most high-risk AI systems also process personal data.*
+
+- **[AEPD AI Guides & Tools](https://www.aepd.es/guias-y-herramientas/guias)** — Complete catalogue of AEPD guidance documents including AI-specific resources.
+- **[Agentic AI & Data Protection](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-agencia-publica-unas-orientaciones-sobre-inteligencia)** — Guidance on autonomous AI agents from a data protection perspective.
+- **[AEPD Generative AI Internal Policy](https://www.aepd.es/documento/politica-iag-aepd.pdf)** — Reference implementation: how a public authority governs its own use of generative AI.
+- **[Privacy & AI Decalogue](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-decalogo-recomendaciones-proteger-privacidad-al-usar-ia)** — 10 recommendations to protect privacy when using AI systems.
+- **[AI Treatment Framework (Infographic)](https://www.aepd.es/infografias/tratamientos-inteligencia-artificial.pdf)** — Visual guide mapping the full regulatory landscape for AI data processing.
+
+### National AI Strategy
+
+- **[España Digital 2026](https://avance.digital.gob.es/programas-avance-digital/Paginas/Espana_Digital_2026.aspx)** — Spain's digital transformation roadmap including AI priorities and investment.
+- **[SEDIA Regulatory Sandbox](https://avance.digital.gob.es/sandbox-IA/Paginas/sandbox-IA.aspx)** — Controlled testing environment for AI innovations under regulatory oversight. First EU AI Act sandbox.
+- **[ENIA — National AI Strategy](https://planderecuperacion.gob.es/noticias/conoce-Estrategia-Nacional-Inteligencia-Artificial-ENIA-IA-prtr)** — Estrategia Nacional de Inteligencia Artificial within the EU Recovery and Resilience Plan.
 
 ## Educational Resources
 
